@@ -1,0 +1,87 @@
+{
+  "title": "Auto Services | Template",
+  "menu": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "offcanvas": {
+    "add_car": "Add Car",
+    "schedule": "Schedule: Monday to Friday: 09:00-13:00; 15:00-19:00, Saturday: 09:00-14:00",
+    "phone": "(+34) 622661761"
+  },
+  "header": {
+    "schedule": "Schedule: Monday to Friday: 09:00-13:00; 15:00-19:00, Saturday: 09:00-14:00",
+    "phone": "(+34) 622661761"
+  },
+  "hero": {
+    "subtitle": "Looking for reliable solutions for your vehicle?",
+    "title": "Professional Car Repair Services",
+    "contact_btn": "Our Contacts",
+    "more_btn": "Lorem ipsum"
+  },
+  "about": {
+    "subtitle": "About Us",
+    "title": "Welcome to Templo Motor",
+    "description": "Templo Motor is a full-service professional auto repair shop in Manises. We offer a wide variety of services and guarantee that our highly skilled mechanics will help resolve your doubts and advise you on the best solutions for your vehicle. We are committed to having satisfied customers. Each customer needs and requires a different solution. From repairs to regular maintenance, we are here to keep your vehicle running smoothly. Trust us to keep your vehicle in optimal condition!",
+    "feature_1_title": "Quality Assurance System",
+    "feature_1_description": "We ensure that every repair and maintenance is carried out to the highest quality standards.",
+    "feature_2_title": "Accurate Testing Processes",
+    "feature_2_description": "We use the latest technology to diagnose and repair any issues your vehicle may have.",
+    "feature_3_title": "Infrastructure Integration Technology",
+    "feature_3_description": "We have state-of-the-art tools and equipment to ensure that every job is done efficiently."
+  },
+  "features": {
+    "subtitle": "Our Features",
+    "title": "We Are a Trusted Name in Autos",
+    "description_1": "At Templo Motor, we take pride in providing reliable and high-quality service to all our customers.",
+    "description_2": "From computerized diagnostics to mechanical repairs, our team is prepared to handle any challenge your vehicle may present.",
+    "about_btn": "About Us",
+    "item_1": "Engine",
+    "item_2": "Turbo",
+    "item_3": "Cooling",
+    "item_4": "Suspension",
+    "item_5": "Electrical",
+    "item_6": "Brakes"
+  },
+  "contact": {
+    "title": "Contacts",
+    "work_with_us_title": "Let's Work Together",
+    "info_text": "For more information, contact us through our social channels.",
+    "phone_label": "Phone:",
+    "email_label": "Email:",
+    "work_hours_label": "Work Hours:",
+    "saturday_label": "Saturday:",
+    "sunday_label": "Sunday:"
+  },
+  "services": {
+    "title": "Our Services",
+    "service_1": "Computerized diagnostics.",
+    "service_2": "Pre ITV.",
+    "service_3": "Mechanical repairs.",
+    "service_4": "Engine repairs.",
+    "service_5": "Electrical system diagnosis and repair.",
+    "service_6": "Oil and filter changes.",
+    "service_7": "Air conditioning.",
+    "service_8": "Brake and suspension repairs.",
+    "service_9": "Light repairs.",
+    "service_10": "Preventive maintenance."
+  },
+  "clients": {
+    "title": "Our Clients"
+  },
+  "footer": {
+    "contact_title": "Contact Us Now!",
+    "phone": "(+34) 622661761",
+    "email": "templomotor@gmail.com",
+    "address": "Any questions? Let us know at our shop at CALLE LAS ROSAS 27, 46940 MANISES",
+    "links_title": "Quick Links",
+    "link_home": "Home",
+    "link_about": "About Us",
+    "link_services": "Services",
+    "link_contact": "Contact",
+    "copyright": "All rights reserved | Created by <a href='#' target=''>BanStudio</a>"
+  }
+}

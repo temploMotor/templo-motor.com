@@ -1,0 +1,87 @@
+{
+  "title": "Servicios de Auto | Plantilla",
+  "menu": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "offcanvas": {
+    "add_car": "Agregar Auto",
+    "schedule": "Horario: Lunes a Viernes: 09:00- 13:00; 15:00 - 19:00, Sábado: 09:00 - 14:00",
+    "phone": "(+34) 622661761"
+  },
+  "header": {
+    "schedule": "Horario: Lunes a Viernes: 09:00- 13:00; 15:00 - 19:00, Sábado: 09:00 - 14:00",
+    "phone": "(+34) 622661761"
+  },
+  "hero": {
+    "subtitle": "¿Buscas soluciones confiables para tu vehículo?",
+    "title": "Servicios Profesionales de Reparación de Automóviles",
+    "contact_btn": "Nuestros contactos",
+    "more_btn": "Lorem ipsum"
+  },
+  "about": {
+    "subtitle": "Sobre Nosotros",
+    "title": "Bienvenido a Templo Motor",
+    "description": "Templo Motor es un taller mecánico en Manises de reparación de automóviles profesional de servicio completo. Ofrecemos una amplia variedad de servicios y le garantizamos que nuestros mecánicos altamente capacitados le ayudarán a resolver sus dudas y le aconsejaran lo mejor para su vehículo. Estamos comprometidos a tener clientes satisfechos. Cada cliente necesita y requiere una solución diferente. Desde reparaciones hasta mantenimiento regular, estamos aquí para mantener tu vehículo funcionando sin problemas. ¡Confía en nosotros para mantener tu vehículo en óptimas condiciones!",
+    "feature_1_title": "Sistema de Garantía de Calidad",
+    "feature_1_description": "Nos aseguramos de que cada reparación y mantenimiento se realice con los más altos estándares de calidad.",
+    "feature_2_title": "Procesos de Prueba Precisa",
+    "feature_2_description": "Utilizamos la última tecnología para diagnosticar y reparar cualquier problema que pueda tener su vehículo.",
+    "feature_3_title": "Tecnología de Integración de Infraestructura",
+    "feature_3_description": "Contamos con herramientas y equipos de vanguardia para garantizar que cada trabajo se realice de manera eficiente."
+  },
+  "features": {
+    "subtitle": "Nuestras Características",
+    "title": "Somos un Nombre de Confianza en Autos",
+    "description_1": "En Templo Motor, nos enorgullecemos de ofrecer un servicio confiable y de alta calidad para todos nuestros clientes.",
+    "description_2": "Desde diagnósticos computarizados hasta reparaciones mecánicas, nuestro equipo está preparado para manejar cualquier desafío que su vehículo pueda presentar.",
+    "about_btn": "Sobre Nosotros",
+    "item_1": "Motor",
+    "item_2": "Turbo",
+    "item_3": "Refrigeración",
+    "item_4": "Suspensión",
+    "item_5": "Eléctrico",
+    "item_6": "Frenos"
+  },
+  "contact": {
+    "title": "Contactos",
+    "work_with_us_title": "Trabajemos Juntos",
+    "info_text": "Para solicitar más información, contáctenos a través de nuestros canales sociales.",
+    "phone_label": "Teléfono:",
+    "email_label": "Email:",
+    "work_hours_label": "Horario:",
+    "saturday_label": "Sábado:",
+    "sunday_label": "Domingo:"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "service_1": "Diagnóstico computarizado.",
+    "service_2": "PRE ITV.",
+    "service_3": "Reparaciones mecánicas.",
+    "service_4": "Reparación de motores.",
+    "service_5": "Diagnóstico y reparación de sistemas eléctricos.",
+    "service_6": "Cambio de aceite y filtros.",
+    "service_7": "Climatización.",
+    "service_8": "Reparación de frenos y suspensiones.",
+    "service_9": "Reparación de luces.",
+    "service_10": "Mantenimiento preventivo."
+  },
+  "clients": {
+    "title": "Nuestros Clientes"
+  },
+  "footer": {
+    "contact_title": "¡Contáctenos Ahora!",
+    "phone": "(+34) 622661761",
+    "email": "templomotor@gmail.com",
+    "address": "¿Alguna pregunta? Déjanos saber en el taller en CALLE LAS ROSAS 27, 46940 MANISES",
+    "links_title": "Enlaces Rápidos",
+    "link_home": "Inicio",
+    "link_about": "Sobre Nosotros",
+    "link_services": "Servicios",
+    "link_contact": "Contacto",
+    "copyright": "Todos los derechos reservados | Creado por <a href='#' target=''>BanStudio</a>"
+  }
+}
