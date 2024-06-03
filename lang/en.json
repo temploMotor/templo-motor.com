@@ -9,11 +9,11 @@
   },
   "offcanvas": {
     "add_car": "Add Car",
-    "schedule": "Schedule: Monday to Friday: 09:00-13:00; 15:00-19:00, Saturday: 09:00-14:00",
+    "schedule": "Schedule: Monday to Friday: 09:00-13:00; 14:00-19:00, Saturday: 09:00-14:00",
     "phone": "(+34) 622661761"
   },
   "header": {
-    "schedule": "Schedule: Monday to Friday: 09:00-13:00; 15:00-19:00, Saturday: 09:00-14:00",
+    "schedule": "Schedule: Monday to Friday: 09:00-13:00; 14:00-19:00, Saturday: 09:00-14:00",
     "phone": "(+34) 622661761"
   },
   "hero": {
