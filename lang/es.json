@@ -9,11 +9,11 @@
   },
   "offcanvas": {
     "add_car": "Agregar Auto",
-    "schedule": "Horario: Lunes a Viernes: 09:00- 13:00; 15:00 - 19:00, Sábado: 09:00 - 14:00",
+    "schedule": "Horario: Lunes a Viernes: 09:00- 13:00; 14:00 - 19:00, Sábado: 09:00 - 14:00",
     "phone": "(+34) 622661761"
   },
   "header": {
-    "schedule": "Horario: Lunes a Viernes: 09:00- 13:00; 15:00 - 19:00, Sábado: 09:00 - 14:00",
+    "schedule": "Horario: Lunes a Viernes: 09:00- 13:00; 14:00 - 19:00, Sábado: 09:00 - 14:00",
     "phone": "(+34) 622661761"
   },
   "hero": {
