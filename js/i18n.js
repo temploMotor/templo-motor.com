@@ -85,8 +85,42 @@
         const phoneInput = document.getElementById("callback_phone_input");
         if (nameInput) nameInput.placeholder = data.callback.name_placeholder;
         if (phoneInput) phoneInput.placeholder = data.callback.phone_placeholder;
+        // setTimeout(() => {
+        //     translateMobileMenu(data);
+        // }, 100);
     }
 
+
+//     function translateMobileMenu(data) {
+//     const home = document.querySelector('.slicknav_nav a[href="#home"]');
+//     const about = document.querySelector('.slicknav_nav a[href="#about"]');
+//     const services = document.querySelector('.slicknav_nav a[href="#service"]');
+
+//     if (home) home.textContent = data.menu.home;
+//     if (about) about.textContent = data.menu.about;
+//     if (services) services.textContent = data.menu.services;
+
+//     const languageParent = document.querySelector('.slicknav_nav .slicknav_parent > a');
+
+//     if (languageParent) {
+//         const arrow = languageParent.querySelector(".slicknav_arrow");
+
+//         languageParent.childNodes.forEach((node) => {
+//             if (node.nodeType === Node.TEXT_NODE) {
+//                 node.textContent = "";
+//             }
+//         });
+
+//         languageParent.insertBefore(
+//             document.createTextNode(data.menu.language + " "),
+//             languageParent.firstChild
+//         );
+
+//         if (arrow) {
+//             languageParent.appendChild(arrow);
+//         }
+//     }
+// }
     async function setLanguage(lang) {
         const language = supportedLanguages.includes(lang) ? lang : defaultLanguage;
 

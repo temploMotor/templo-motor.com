@@ -65,10 +65,10 @@
 		Navigation
 	--------------------*/
     $(".header__menu").slicknav({
-        prependTo: '#mobile-menu-wrap',
-        allowParentLinks: true
-    });
-
+    prependTo: "#mobile-menu-wrap",
+    allowParentLinks: true,
+    removeIds: false
+});
     /*--------------------------
         Testimonial Slider
     ----------------------------*/
