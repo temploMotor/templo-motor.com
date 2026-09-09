@@ -1,0 +1,95 @@
+{
+  "title": "Templo Motor | Servicii de reparații și întreținere auto",
+  "menu": {
+    "home": "Acasă",
+    "about": "Despre noi",
+    "services": "Servicii",
+    "contact": "Contact",
+    "language": "Limbă"
+  },
+  "offcanvas": {
+    "schedule": "Program: Luni-Vineri: 09:00-13:00; 14:00-19:00, Sâmbătă: 09:00-14:00",
+    "phone": "(+34) 622661761"
+  },
+  "header": {
+    "schedule": "Program: Luni-Vineri: 09:00-13:00; 14:00-19:00, Sâmbătă: 09:00-14:00",
+    "phone": "(+34) 622661761"
+  },
+  "hero": {
+    "subtitle": "Căutați soluții de încredere pentru mașina dumneavoastră?",
+    "title": "Servicii profesionale de reparații auto",
+    "contact_btn": "Datele noastre de contact"
+  },
+  "about": {
+    "subtitle": "Despre noi",
+    "title": "Bine ați venit la Templo Motor",
+    "description": "Templo Motor este un service auto profesionist cu servicii complete în Manises. Oferim o gamă largă de servicii, iar mecanicii noștri bine pregătiți vă vor răspunde la întrebări și vă vor recomanda cea mai bună soluție pentru mașina dumneavoastră. Suntem dedicați satisfacției clienților. Fiecare client are nevoie de o soluție diferită. De la reparații până la întreținerea periodică, suntem aici pentru ca mașina dumneavoastră să funcționeze fără probleme. Aveți încredere în noi pentru a vă menține mașina în stare excelentă!",
+    "feature_1_title": "Sistem de asigurare a calității",
+    "feature_1_description": "Ne asigurăm că fiecare reparație și lucrare de întreținere este efectuată la cele mai înalte standarde de calitate.",
+    "feature_2_title": "Diagnosticare precisă",
+    "feature_2_description": "Folosim tehnologii moderne pentru a diagnostica și remedia orice problemă a mașinii dumneavoastră.",
+    "feature_3_title": "Echipamente moderne",
+    "feature_3_description": "Folosim instrumente și echipamente moderne pentru ca fiecare lucrare să fie realizată eficient."
+  },
+  "features": {
+    "subtitle": "Avantajele noastre",
+    "title": "Un service auto în care puteți avea încredere",
+    "description_1": "La Templo Motor suntem mândri să oferim fiecărui client servicii fiabile și de înaltă calitate.",
+    "description_2": "De la diagnosticare computerizată până la reparații mecanice, echipa noastră este pregătită să rezolve orice problemă a mașinii dumneavoastră.",
+    "about_btn": "Despre noi",
+    "item_1": "Motor",
+    "item_2": "Turbo",
+    "item_3": "Răcire",
+    "item_4": "Suspensie",
+    "item_5": "Electrică",
+    "item_6": "Frâne"
+  },
+  "contact": {
+    "title": "Contact",
+    "work_with_us_title": "Să lucrăm împreună",
+    "info_text": "Pentru mai multe informații, contactați-ne prin canalele noastre sociale.",
+    "phone_label": "Telefon:",
+    "email_label": "Email:",
+    "work_hours_label": "Program:",
+    "saturday_label": "Sâmbătă:"
+  },
+  "services": {
+    "title": "Serviciile noastre",
+    "service_1": "Diagnosticare computerizată.",
+    "service_2": "Verificare înainte de ITV.",
+    "service_3": "Reparații mecanice.",
+    "service_4": "Reparații motoare.",
+    "service_5": "Diagnosticarea și repararea sistemelor electrice.",
+    "service_6": "Schimb de ulei și filtre.",
+    "service_7": "Aer condiționat.",
+    "service_8": "Reparații frâne și suspensie.",
+    "service_9": "Reparații ale sistemului de iluminare.",
+    "service_10": "Întreținere preventivă."
+  },
+  "clients": {
+    "title": "Clienții noștri"
+  },
+  "footer": {
+    "contact_title": "Contactați-ne acum!",
+    "phone": "(+34) 622661761",
+    "email": "templomotor@gmail.com",
+    "address": "Aveți întrebări? Vizitați-ne la atelier: CALLE LAS ROSAS 27, 46940 MANISES",
+    "links_title": "Linkuri rapide",
+    "link_home": "Acasă",
+    "link_about": "Despre noi",
+    "link_services": "Servicii",
+    "link_contact": "Contact",
+    "copyright": "Toate drepturile rezervate | Creat de BanStudio"
+  },
+  "callback": {
+    "title": "Solicitați un apel",
+    "description": "Lăsați-ne datele dumneavoastră și vă vom suna.",
+    "name_placeholder": "Numele dumneavoastră",
+    "phone_placeholder": "+34 600 000 000",
+    "submit": "SUNĂ-MĂ",
+    "success": "Gata! Vă vom suna.",
+    "send_error": "Solicitarea nu a putut fi trimisă.",
+    "connection_error": "Eroare de conexiune. Încercați din nou.",
+    "invalid_phone": "Introduceți un număr de telefon valid."
+  }
+}

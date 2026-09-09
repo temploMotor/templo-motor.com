@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/callback.css" type="text/css">
 </head>
 
 <body>
@@ -96,9 +97,11 @@
                             <li><a href="#service" id="nav_services">Servicios</a></li>
                             <li><a href="#" id="nav_language">Idioma</a>
                                 <ul class="dropdown">
-                                    <li><a href="#" onclick="setLanguage('es')">Español</a></li>
-                                    <li><a href="#" onclick="setLanguage('en')">English</a></li>
-                                    <li><a href="#" onclick="setLanguage('ru')">Русский</a></li>
+                                    <li><a href="#" data-lang="es">Español</a></li>
+                                    <li><a href="#" data-lang="en">English</a></li>
+                                    <li><a href="#" data-lang="uk">Українська</a></li>
+                                    <li><a href="#" data-lang="ru">Русский</a></li>
+                                    <li><a href="#" data-lang="ro">Română</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -132,7 +135,7 @@
                     <br>
                     <br>
                     <a href="#contact" class="primary-btn" id="hero_contact_btn"><img src="img/wheel.png" alt=""> Nuestros contactos </a>
-                    <a href="tel:+34622661761" type="tel" id="phone" name="phone" class="primary-btn more-btn" id="hero_more_btn">(+34) 622661761</a>
+                    <a href="tel:+34622661761" class="primary-btn more-btn" id="hero_phone_btn">(+34) 622661761</a>
                 </div>
             </div>
         </div>
@@ -295,12 +298,43 @@
             </div>
             <div class="col-lg-6 col-md-6">
                 <div class="contact__form">
-                    <iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                            id="gmap_canvas"
-                            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=es&amp;q=Carrer%20de%20les%20Roses,%2027,%2046940%20Manises,%20Val%C3%A8ncia,%20España%20+(Carrer%20de%20les%20Roses,%2027,%2046940%20Manises,%20Val%C3%A8ncia,%20España)&amp;t=p&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                    <a href='https://www.easybooking.eu/'>Software para Hoteles</a>
-                    <script type='text/javascript'
-                            src='https://embedmaps.com/google-maps-authorization/script.js?id=82406493dc1f533f8687abc8d92d46b4fd0a05b2'></script>
+                    <form id="callbackForm" class="callback-form">
+
+                        <h3 id="callback_title" class="callback-form__title">
+                            Solicitar una llamada
+                        </h3>
+
+                        <p id="callback_description" class="callback-form__description">
+                            Déjenos sus datos y le llamaremos.
+                        </p>
+
+                        <input
+                            id="callback_name"
+                            class="callback-form__input"
+                            type="text"
+                            name="name"
+                            placeholder="Su nombre"
+                            required
+                            autocomplete="name"
+                        >
+
+                        <input
+                            id="callback_phone_input"
+                            class="callback-form__input"
+                            type="tel"
+                            name="phone"
+                            placeholder="+34 600 000 000"
+                            required
+                            autocomplete="tel"
+                        >
+
+                        <button
+                            id="callback_submit"
+                            class="callback-form__submit"
+                            type="submit"
+                        >
+                            LLÁMAME
+                        </button>
                 </div>
             </div>
         </div>
@@ -441,8 +475,8 @@
                     <ul>
                         <li><a href="#home"><i class="fa fa-angle-right"></i> <span id="footer_link_home">Inicio</span></a></li>
                         <li><a href="#about"><i class="fa fa-angle-right"></i> <span id="footer_link_about">Sobre Nosotros</span></a></li>
-                        <li><a href="#contact"><i class="fa fa-angle-right"></i> <span id="footer_link_services">Servicios</span></a></li>
-                        <li><a href="#service"><i class="fa fa-angle-right"></i> <span id="footer_link_contact">Contacto</span></a></li>
+                        <li><a href="#service"><i class="fa fa-angle-right"></i> <span id="footer_link_services">Servicios</span></a></li>
+                        <li><a href="#contact"><i class="fa fa-angle-right"></i> <span id="footer_link_contact">Contacto</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -479,103 +513,9 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
 
-<script>
-    function setLanguage(lang) {
-        $.getJSON('lang/' + lang + '.json', function(data) {
-            // Update Title
-            $('#title').text(data.title);
-
-            // Update Navbar
-            $('#nav_home').text(data.menu.home);
-            $('#nav_about').text(data.menu.about);
-            $('#nav_services').text(data.menu.services);
-            $('#nav_contact_btn').text(data.menu.contact);
-            $('#nav_language').text(data.menu.language);
-
-            // Update Offcanvas
-            $('#offcanvas_add_car').text(data.offcanvas.add_car);
-            $('#offcanvas_schedule').text(data.offcanvas.schedule);
-            $('#offcanvas_phone').text(data.offcanvas.phone);
-
-            // Update Header
-            $('#header_schedule').text(data.header.schedule);
-            $('#header_phone').text(data.header.phone);
-
-            // Update Hero Section
-            $('#hero_subtitle').text(data.hero.subtitle);
-            $('#hero_title').text(data.hero.title);
-            $('#hero_contact_btn').text(data.hero.contact_btn);
-            $('#hero_more_btn').text(data.hero.more_btn);
-
-            // Update About Section
-            $('#about_subtitle').text(data.about.subtitle);
-            $('#about_title').text(data.about.title);
-            $('#about_description').text(data.about.description);
-            $('#feature_1_title').text(data.about.feature_1_title);
-            $('#feature_1_description').text(data.about.feature_1_description);
-            $('#feature_2_title').text(data.about.feature_2_title);
-            $('#feature_2_description').text(data.about.feature_2_description);
-            $('#feature_3_title').text(data.about.feature_3_title);
-            $('#feature_3_description').text(data.about.feature_3_description);
-
-            // Update Features Section
-            $('#feature_subtitle').text(data.features.subtitle);
-            $('#feature_title').text(data.features.title);
-            $('#feature_description_1').text(data.features.description_1);
-            $('#feature_description_2').text(data.features.description_2);
-            $('#feature_about_btn').text(data.features.about_btn);
-            $('#feature_item_1').text(data.features.item_1);
-            $('#feature_item_2').text(data.features.item_2);
-            $('#feature_item_3').text(data.features.item_3);
-            $('#feature_item_4').text(data.features.item_4);
-            $('#feature_item_5').text(data.features.item_5);
-            $('#feature_item_6').text(data.features.item_6);
-
-            // Update Contact Section
-            $('#contact_title').text(data.contact.title);
-            $('#work_with_us_title').text(data.contact.work_with_us_title);
-            $('#contact_info_text').text(data.contact.info_text);
-            $('#contact_phone_label').text(data.contact.phone_label);
-            $('#contact_email_label').text(data.contact.email_label);
-            $('#work_hours_label').text(data.contact.work_hours_label);
-            $('#saturday_label').text(data.contact.saturday_label);
-            $('#sunday_label').text(data.contact.sunday_label);
-
-            // Update Services Section
-            $('#services_title').text(data.services.title);
-            $('#service_1').text(data.services.service_1);
-            $('#service_2').text(data.services.service_2);
-            $('#service_3').text(data.services.service_3);
-            $('#service_4').text(data.services.service_4);
-            $('#service_5').text(data.services.service_5);
-            $('#service_6').text(data.services.service_6);
-            $('#service_7').text(data.services.service_7);
-            $('#service_8').text(data.services.service_8);
-            $('#service_9').text(data.services.service_9);
-            $('#service_10').text(data.services.service_10);
-
-            // Update Clients Section
-            $('#clients_title').text(data.clients.title);
-
-            // Update Footer
-            $('#footer_contact_title').text(data.footer.contact_title);
-            $('#footer_phone').text(data.footer.phone);
-            $('#footer_email').text(data.footer.email);
-            $('#footer_address').text(data.footer.address);
-            $('#footer_links_title').text(data.footer.links_title);
-            $('#footer_link_home').text(data.footer.link_home);
-            $('#footer_link_about').text(data.footer.link_about);
-            $('#footer_link_services').text(data.footer.link_services);
-            $('#footer_link_contact').text(data.footer.link_contact);
-            $('#footer_copyright').html(data.footer.copyright);
-        });
-    }
-
-    $(document).ready(function() {
-        // Default language
-        setLanguage('es');
-    });
-</script>
+<script src="js/i18n.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/callback.js"></script>
 </body>
 
 </html>

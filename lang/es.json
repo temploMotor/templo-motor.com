@@ -1,5 +1,5 @@
 {
-  "title": "Servicios de Auto | Plantilla",
+  "title": "Templo Motor | Servicios de Reparación y Mantenimiento de Autos",
   "menu": {
     "home": "Inicio",
     "about": "Sobre nosotros",
@@ -8,24 +8,22 @@
     "language": "Idioma"
   },
   "offcanvas": {
-    "add_car": "Agregar Auto",
-    "schedule": "Horario: Lunes a Viernes: 09:00- 13:00; 14:00 - 19:00, Sábado: 09:00 - 14:00",
+    "schedule": "Horario: Lunes a Viernes: 09:00-13:00; 14:00-19:00, Sábado: 09:00-14:00",
     "phone": "(+34) 622661761"
   },
   "header": {
-    "schedule": "Horario: Lunes a Viernes: 09:00- 13:00; 14:00 - 19:00, Sábado: 09:00 - 14:00",
+    "schedule": "Horario: Lunes a Viernes: 09:00-13:00; 14:00-19:00, Sábado: 09:00-14:00",
     "phone": "(+34) 622661761"
   },
   "hero": {
     "subtitle": "¿Buscas soluciones confiables para tu vehículo?",
     "title": "Servicios Profesionales de Reparación de Automóviles",
-    "contact_btn": "Nuestros contactos",
-    "more_btn": "Lorem ipsum"
+    "contact_btn": "Nuestros contactos"
   },
   "about": {
     "subtitle": "Sobre Nosotros",
     "title": "Bienvenido a Templo Motor",
-    "description": "Templo Motor es un taller mecánico en Manises de reparación de automóviles profesional de servicio completo. Ofrecemos una amplia variedad de servicios y le garantizamos que nuestros mecánicos altamente capacitados le ayudarán a resolver sus dudas y le aconsejaran lo mejor para su vehículo. Estamos comprometidos a tener clientes satisfechos. Cada cliente necesita y requiere una solución diferente. Desde reparaciones hasta mantenimiento regular, estamos aquí para mantener tu vehículo funcionando sin problemas. ¡Confía en nosotros para mantener tu vehículo en óptimas condiciones!",
+    "description": "Templo Motor es un taller mecánico profesional de servicio completo en Manises. Ofrecemos una amplia variedad de servicios y le garantizamos que nuestros mecánicos altamente capacitados le ayudarán a resolver sus dudas y le aconsejarán la mejor opción para su vehículo. Estamos comprometidos con la satisfacción de nuestros clientes. Cada cliente necesita una solución diferente. Desde reparaciones hasta mantenimiento regular, estamos aquí para mantener su vehículo funcionando sin problemas. ¡Confíe en nosotros para mantener su vehículo en óptimas condiciones!",
     "feature_1_title": "Sistema de Garantía de Calidad",
     "feature_1_description": "Nos aseguramos de que cada reparación y mantenimiento se realice con los más altos estándares de calidad.",
     "feature_2_title": "Procesos de Prueba Precisa",
@@ -53,8 +51,7 @@
     "phone_label": "Teléfono:",
     "email_label": "Email:",
     "work_hours_label": "Horario:",
-    "saturday_label": "Sábado:",
-    "sunday_label": "Domingo:"
+    "saturday_label": "Sábado:"
   },
   "services": {
     "title": "Nuestros Servicios",
@@ -76,12 +73,23 @@
     "contact_title": "¡Contáctenos Ahora!",
     "phone": "(+34) 622661761",
     "email": "templomotor@gmail.com",
-    "address": "¿Alguna pregunta? Déjanos saber en el taller en CALLE LAS ROSAS 27, 46940 MANISES",
+    "address": "¿Alguna pregunta? Visítenos en el taller: CALLE LAS ROSAS 27, 46940 MANISES",
     "links_title": "Enlaces Rápidos",
     "link_home": "Inicio",
     "link_about": "Sobre Nosotros",
     "link_services": "Servicios",
     "link_contact": "Contacto",
-    "copyright": "Todos los derechos reservados | Creado por <a href='#' target=''>BanStudio</a>"
+    "copyright": "Todos los derechos reservados | Creado por BanStudio"
+  },
+  "callback": {
+    "title": "Solicitar una llamada",
+    "description": "Déjenos sus datos y le llamaremos.",
+    "name_placeholder": "Su nombre",
+    "phone_placeholder": "+34 600 000 000",
+    "submit": "LLÁMAME",
+    "success": "¡Todo listo! Le llamaremos.",
+    "send_error": "No se pudo enviar la solicitud.",
+    "connection_error": "Error de conexión. Inténtelo de nuevo.",
+    "invalid_phone": "Introduce un número de teléfono válido."
   }
 }
