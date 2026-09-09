@@ -3088,12 +3088,11 @@ ol {
 	padding: 40px 0;
 }
 .contact__form {
-	position: relative;
-	padding-bottom: 56.25%; /* Aspect ratio 16:9 */
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-	height: auto;
+    position: relative;
+    padding-bottom: 0;
+    height: auto;
+    overflow: visible;
+    max-width: 100%;
 }
 
 .contact__form iframe {
